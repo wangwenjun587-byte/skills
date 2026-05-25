@@ -17,8 +17,8 @@ agent_created: true
 
 ### 第一步：读取被测 Skill
 
-1. 确认被测 Skill 名称和路径（默认在 `~/.workbuddy/skills/` 下查找）
-2. 读取被测 Skill 的 `SKILL.md` 全文，理解其：
+1. 确认被测 Skill 名称和路径（默认当前agent存储skill的地址）
+2. 读取被测 Skill 类似 `%SKILL.md` 全文，理解其：
    - 声明的功能边界（description）
    - 触发条件
    - 预期的输出格式和工具调用模式
